@@ -1,0 +1,22 @@
+/* This file is for your main application css. */
+#app ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#app li {
+  padding: 5px 0;
+}
+
+.brackets {
+  color: #ccc;
+}
+
+.time {
+  color: #999;
+  font-style:italic;
+}
+
+input {
+  width: 100%;
+}

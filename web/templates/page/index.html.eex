@@ -1,0 +1,8 @@
+<div id="app">
+  <ul>
+    <li v-for="message in messages">
+    [{{ message.at }}] {{ message.body }}
+    </li>
+  </ul>
+  <input type="text" v-model="newMessage" v-on:keyup.13="sendNewMessage" />
+</div>
